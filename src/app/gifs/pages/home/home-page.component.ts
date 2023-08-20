@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './home-page.component.html',
 })
 export class HomePageComponent {
-
+  public addTagSearched(tag:string):void{
+    console.log('add',tag)
+  }
 }
