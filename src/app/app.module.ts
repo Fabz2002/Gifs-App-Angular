@@ -7,6 +7,7 @@ import { SharedModule } from './shared/shared.module';
 import {HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
+import { LazyImageComponent } from './shared/components/lazy-image/lazy-image.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,6 @@ import { AppComponent } from './app.component';
     GifsModule,
     SharedModule,
     HttpClientModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
